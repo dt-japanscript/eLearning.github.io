@@ -25,49 +25,7 @@
         }
         .myNavBar__form-search {
             flex-grow: 8;
-            .input-group {
-                background-color: $color-white-cream;
-                .form-control {
-                    background-color: transparent;
-                    border-color: transparent;
-                    box-shadow: none;
-                    color: $color-black-light;
-                    transition: none;
-                    &::placeholder {
-                        color: $color-black-light;
-                    }
-                    &:focus {
-                        background-color: $color-white-0;
-                        border-top-color: $color-gray-4;
-                        border-bottom-color: $color-gray-4;
-                        border-left-color: $color-gray-4;
-                    }
-                    &:focus + .input-group-append {
-                        .input-group-text {
-                            background-color: $color-white-0;
-                            border-top-color: $color-gray-4;
-                            border-bottom-color: $color-gray-4;
-                            border-right-color: $color-gray-4;
-                            color: $color-red-0;
-                            &:hover {
-                                color: $color-white-0;
-                                background-color: $color-red-0;
-                            }
-                        }
-                    }
-                }
-                .input-group-append {
-                    .input-group-text {
-                        background-color: transparent;
-                        border-color: transparent;
-                        color: $color-red-0;
-                        &:hover {
-                            color: $color-white-0;
-                            background-color: $color-red-0;
-                        }
-                    }
-                }
-            }
+            @include styleFormSeach($color-white-cream, $color-white-0, $color-gray-4);
         }
     }
     .myNavBar__right {
