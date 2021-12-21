@@ -406,6 +406,32 @@ body {
   margin-bottom: 20px;
 }
 
+.partners {
+  background-color: #f7f8fa;
+  padding: 20px 0;
+}
+
+.partners .partners__content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.partners .partners__content .partners__text {
+  text-align: center;
+}
+
+.partners .partners__content .partners__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .button--white {
   color: #686f7a;
   background-color: #fff;
