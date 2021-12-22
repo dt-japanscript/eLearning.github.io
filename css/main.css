@@ -715,6 +715,13 @@ footer .footer__bottom .nav-link {
   background-color: #ec5252;
 }
 
+@media screen and (max-width: 576px) {
+  .cover .cover__content {
+    max-width: 400px;
+    left: 10%;
+  }
+}
+
 .card {
   height: 275px;
   margin-right: 1px;
