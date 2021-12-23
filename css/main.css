@@ -607,6 +607,33 @@ footer .footer__bottom .nav-link {
           align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .partners .partners__content {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .partners .partners__content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .partners .partners__content {
+    width: 60%;
+  }
+  .partners .partners__content .partners__img {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .partners .partners__content .partners__img .partners__item {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+
 .jobs {
   background-color: #f7f8fa;
 }
