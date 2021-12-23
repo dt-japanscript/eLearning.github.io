@@ -655,6 +655,12 @@ footer .footer__bottom .nav-link {
   font-weight: 700;
 }
 
+@media screen and (max-width: 768px) {
+  .jobs .border-right {
+    border-right: none !important;
+  }
+}
+
 .button--white {
   color: #686f7a;
   background-color: #fff;
