@@ -670,6 +670,9 @@ footer .footer__bottom .nav-link {
   z-index: 500;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-left: 1px solid #dedfe0;
 }
 
 .sidebarMini .sidebarMini__button {
@@ -684,6 +687,10 @@ footer .footer__bottom .nav-link {
   position: fixed;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+}
+
+.sidebarMini .sidebarMini__button:focus {
+  outline: none;
 }
 
 .sidebarMini .sidebarMini__content {
@@ -735,6 +742,11 @@ footer .footer__bottom .nav-link {
   left: 4px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.sidebarMini.is-opened {
+  -webkit-transform: translateX(60%);
+          transform: translateX(60%);
 }
 
 .button--white {

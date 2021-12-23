@@ -6,11 +6,16 @@
     background-color: $color-gray-4;
     z-index: 500;
     transform: translateX(100%);
+    transition: 0.5s;
+    border-left: 1px solid $color-gray-4;
     .sidebarMini__button {
         @include styleButton($color-black-0, $color-gray-4, $color-gray-4, $fs-5, $fw-0, $pd-2, $pd-3);
         border-radius: 8px 0 0 8px;
         position: fixed;
         transform: translateX(-100%);
+        &:focus {
+            outline: none;
+        }
     }
     .sidebarMini__content {
         width: 150px;
@@ -55,5 +60,8 @@
                 }
             }
         }
+    }
+    &.is-opened {
+        transform: translateX(60%);
     }
 }
