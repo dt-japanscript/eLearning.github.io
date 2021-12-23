@@ -13,6 +13,7 @@
         border-radius: 8px 0 0 8px;
         position: fixed;
         transform: translateX(-100%);
+        transition: 0.5s;
         &:focus {
             outline: none;
         }

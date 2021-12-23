@@ -687,6 +687,8 @@ footer .footer__bottom .nav-link {
   position: fixed;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .sidebarMini .sidebarMini__button:focus {
@@ -983,5 +985,23 @@ footer .footer__bottom .nav-link {
   color: #29303b;
   font-size: 15px;
   font-weight: normal;
+}
+
+.darkMode .sidebarMini {
+  background-color: #152e4d;
+  color: #fff;
+  border-left-color: #152e4d;
+}
+
+.darkMode .sidebarMini .sidebarMini__button {
+  background-color: #152e4d;
+  border-color: #152e4d;
+  color: #fff;
+}
+
+.darkMode .sidebarMini .sidebarMini__content .switch .slider {
+  background-color: #061325;
+  -webkit-box-shadow: 0 0 2px 3px #344050;
+          box-shadow: 0 0 2px 3px #344050;
 }
 /*# sourceMappingURL=main.css.map */
