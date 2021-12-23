@@ -464,6 +464,21 @@ footer .footer__bottom .nav-link {
   border-bottom: 5px solid #007791;
 }
 
+@media screen and (max-width: 1350px) {
+  .courses .courses__content .card .card-body .card-title {
+    color: #29303b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .courses .courses__content .courses__left {
+    padding: 20px;
+  }
+}
+
 .viewing {
   padding: 22px 0;
 }
@@ -475,6 +490,15 @@ footer .footer__bottom .nav-link {
 
 .viewing .viewing__content h2 {
   font-size: 20px;
+}
+
+@media screen and (max-width: 1350px) {
+  .viewing .viewing__content .card .card-body .card-title {
+    color: #29303b;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
 }
 
 .banner {
