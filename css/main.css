@@ -492,8 +492,21 @@ footer .footer__bottom .nav-link {
   font-size: 20px;
 }
 
+.viewing .viewing {
+  padding: 22px 0;
+}
+
+.viewing .viewing .viewing__content {
+  width: 90%;
+  margin: auto;
+}
+
+.viewing .viewing .viewing__content h2 {
+  font-size: 20px;
+}
+
 @media screen and (max-width: 1350px) {
-  .viewing .viewing__content .card .card-body .card-title {
+  .viewing .viewing .viewing__content .card .card-body .card-title {
     color: #29303b;
     font-size: 13px;
     font-weight: 600;
