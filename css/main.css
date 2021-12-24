@@ -1180,6 +1180,10 @@ body.darkMode {
   color: #d8e2ef;
 }
 
+.darkMode .partners {
+  background-color: #132238;
+}
+
 .darkMode .button--white:hover {
   color: #d8e2ef;
   background-color: #152e4d;
