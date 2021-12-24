@@ -36,6 +36,12 @@ footer {
     .footer__bottom {
         width: 90%;
         margin: $mg-3 - 2 auto;
+        .logo-black {
+            display: inline-block;
+        }
+        .logo-white {
+            display: none;
+        }
         img {
             width: 110px;
             margin-right: $mg-0 + 5;
