@@ -1184,10 +1184,28 @@ body.darkMode {
   background-color: #132238;
 }
 
+.darkMode .jobs {
+  background-color: #132238;
+}
+
+.darkMode .jobs .jobs__content .jobs__items h2 {
+  color: #d8e2ef;
+}
+
+.darkMode .jobs .jobs__content .border-right {
+  border-right: 1px solid #344050 !important;
+}
+
 .darkMode .button--white:hover {
   color: #d8e2ef;
   background-color: #152e4d;
   border: 1px solid #344050;
+}
+
+.darkMode .button--red:hover {
+  color: #fff;
+  background-color: #e63757;
+  border: 1px solid #e63757;
 }
 
 .darkMode .card {
