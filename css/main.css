@@ -968,28 +968,28 @@ footer .footer__bottom .nav-link {
   padding: 15px;
 }
 
-.card--feedback .card-top {
+.card--feedback .card-body .card-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 15px;
 }
 
-.card--feedback .card-top .card-avatar {
+.card--feedback .card-body .card-avatar {
   margin-right: 1rem;
 }
 
-.card--feedback .card-top .card-avatar img {
+.card--feedback .card-body .card-avatar img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
 
-.card--feedback .card__name {
+.card--feedback .card-body .card__name {
   margin-bottom: 0;
 }
 
-.card--feedback .card__text {
+.card--feedback .card-body .card__text {
   color: #29303b;
   font-size: 15px;
   font-weight: normal;
@@ -1172,6 +1172,14 @@ body.darkMode {
           box-shadow: 0 0 3px 2px #152e4d;
 }
 
+.darkMode .students {
+  background-color: #132238;
+}
+
+.darkMode .students .students__content h2 {
+  color: #d8e2ef;
+}
+
 .darkMode .button--white:hover {
   color: #d8e2ef;
   background-color: #152e4d;
@@ -1210,5 +1218,17 @@ body.darkMode {
 
 .darkMode .card .card-body .card__price span:last-child {
   color: #d8e2ef;
+}
+
+.darkMode .card--feedback {
+  background-color: #0e1c2f;
+}
+
+.darkMode .card--feedback .card-body .card__name {
+  color: #d8e2ef;
+}
+
+.darkMode .card--feedback .card-body .card__text {
+  color: #9da9bb;
 }
 /*# sourceMappingURL=main.css.map */

@@ -31,4 +31,15 @@
             }
         }
     }
+    .card--feedback {
+        background-color: $color-dark-4;
+        .card-body {
+            .card__name {
+                color: $color-dark-5;
+            }
+            .card__text {
+                color: $color-dark-3;
+            }
+        }
+    }
 }
